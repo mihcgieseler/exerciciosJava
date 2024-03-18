@@ -17,7 +17,7 @@ c. o número de mulheres. */
             System.out.println("Digite:\n1 para mulheres\n2 para homens");
             sexo = entrada.nextInt();
             System.out.println("Digite a altura");
-            altura = entrada.nextFloat();
+            altura = entrada.nextDouble();
             if(sexo==1){
                 qtMulheres++;
             }else if (sexo==2){
